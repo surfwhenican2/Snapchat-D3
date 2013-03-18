@@ -22,7 +22,7 @@
 
 <script>
 
-            var width = 960, height = 600;
+            var width = 960, height = 800;
 
             var svg = d3.select("body").append("svg")
                 .attr("width", width)
@@ -30,7 +30,7 @@
 
             var force = d3.layout.force()
                 .gravity(.05)
-                .distance(70)
+                .distance(55)
                 .charge(-500)
                 .size([width, height]);
 
