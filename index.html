@@ -35,7 +35,7 @@
                 .charge(-500)
                 .size([width, height]);
 
-            d3.json("graphphp.json", function(json) {
+            d3.json("bobby.json", function(json) {
               force
                   .nodes(json.nodes)
                   .links(json.links)
@@ -87,7 +87,7 @@
                 .charge(-500)
                 .size([width, height]);
 
-            d3.json("bobby.json", function(json) {
+            d3.json("graphphp.json", function(json) {
               force2
                   .nodes(json.nodes)
                   .links(json.links)
